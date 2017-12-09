@@ -12,7 +12,7 @@ There are many books you can refer to get started with C Programming:
 
 ## Some basic programs in C -- for begginers
 
-  1. [Factorial of a given number](factorial.c)  
+  1. [Factorial of a given number](factorial.c)  <br />
      <b>LOGIC</b>: use recursive functions <br />
         ```
         int factorial(int n) {
@@ -20,7 +20,7 @@ There are many books you can refer to get started with C Programming:
            else return 1;
         } 
         ```
-  2. [Prime Number](prime.c)
+  2. [Prime Number](prime.c)<br />
       <b>LOGIC</b>: Use for loop till n/2 elements <br />
       ```
         for(i=2;i<=n/2;i++) {
@@ -30,7 +30,7 @@ There are many books you can refer to get started with C Programming:
           }
         }
         ```
-  3. [Fibonacci Series](fibonacci.c)
+  3. [Fibonacci Series](fibonacci.c)<br />
       <b>LOGIC</b>: Use for loop <br />
       ```
         for(i=1;i<=n;i++) {
@@ -42,17 +42,34 @@ There are many books you can refer to get started with C Programming:
           }
         }
       ```
-  4. [Sum of elements in array](sumOfElements.c)
+  4. [Sum of elements in array](sumOfElements.c)<br />
       <b>LOGIC</b>: Use for loop <br />
-      
-        ```for(i=0;i<n;i++) {
+        ```
+        for(i=0;i<n;i++) {
           sum+=a[i];
-        } ```
-
-  5. [Duplicate elements of an array](arrayDup.c)
+        } 
+        ```
+  5. [Duplicate elements of an array](arrayDup.c)<br />
       <b>LOGIC</b>: Use for loop <br />
-      
-        ```for(i=0;i<n;i++) {
+        ```
+        for(i=0;i<n;i++) {
           b[i]=a[i];
-        }```
-     
+        }
+        ```
+  6. [Array Reversal](ArrayReversal.c)<br />
+      <b>LOGIC</b>:Use temp variable<br />
+      ```
+      for(i=0,j=n-1;i<n/2;i++,j--) {
+        temp=a[i];
+        a[i]=a[j];
+        a[j]=temp;
+      }
+    ```
+  7. [Multi dimensional array input](arrayip.c)<br />
+      <b>LOGIC</b>: Use nested loops <br />
+      ```
+        for(i=0;i<r;i++) {
+            for(j=0;j<c;j++)
+                scanf("%d",&A[i][j]);
+        }
+      ```
