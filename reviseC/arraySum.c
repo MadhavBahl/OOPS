@@ -19,7 +19,6 @@ int main() {
             scanf("%d",&B[i][j]);
             sum[i][j] = A[i][j]+B[i][j];
         }
-
     }
     printf("Your The sum of matrix is: \n");
     for(i=0;i<r;i++) {

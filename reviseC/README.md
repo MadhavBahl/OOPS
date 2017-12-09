@@ -83,3 +83,11 @@ There are many books you can refer to get started with C Programming:
           }
         }
       ```
+  9. [String operations in C](arrayAsString.c)<br />
+    ```
+      strlen();
+      strrev();
+      strcpy();
+      strcat();
+      strcmp();
+    ```
