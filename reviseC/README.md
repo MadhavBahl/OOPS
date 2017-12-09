@@ -14,9 +14,25 @@ There are many books you can refer to get started with C Programming:
 
   1. [Factorial of a given number](factorial.c)  
      <b>LOGIC</b>: use recursive functions <br />
-     ```int factorial(int n) {
+        int factorial(int n) {
            if(n>1) return n*factorial(n-1);
            else return 1;
-        } ```
+        } 
   2. [Prime Number](prime.c)
-  3. [Fibonacci Series]()
+      <b>LOGIC</b>: Use for loop till n/2 elements <br />
+        for(i=2;i<=n/2;i++) {
+          if(n%i == 0){
+              flag = 1;
+              break;
+          }
+        }
+  3. [Fibonacci Series](fibonacci.c)
+      <b>LOGIC</b>: Use for loop <br />
+        for(i=1;i<=n;i++) {
+          if(i<3) a3=1;
+          else {
+              a3=a2+a1;
+              a1=a2;
+              a2=a3;
+          }
+        }
