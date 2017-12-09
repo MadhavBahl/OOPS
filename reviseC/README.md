@@ -64,12 +64,22 @@ There are many books you can refer to get started with C Programming:
         a[i]=a[j];
         a[j]=temp;
       }
-    ```
+      ```
   7. [Multi dimensional array input](arrayip.c)<br />
       <b>LOGIC</b>: Use nested loops <br />
       ```
         for(i=0;i<r;i++) {
             for(j=0;j<c;j++)
                 scanf("%d",&A[i][j]);
+        }
+      ```
+  8. [Sum of matrix](arraySum.c)<br />
+      <b>LOGIC</b>: Add individual element <br />
+      ```
+        for(i=0;i<r;i++) {
+          for(j=0;j<c;j++){
+              scanf("%d",&B[i][j]);
+              sum[i][j] = A[i][j]+B[i][j];
+          }
         }
       ```
