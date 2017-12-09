@@ -14,25 +14,25 @@ There are many books you can refer to get started with C Programming:
 
   1. [Factorial of a given number](factorial.c)  
      <b>LOGIC</b>: use recursive functions <br />
-        <pre><code>
+        ```
         int factorial(int n) {
            if(n>1) return n*factorial(n-1);
            else return 1;
         } 
-        </code></pre>
+        ```
   2. [Prime Number](prime.c)
       <b>LOGIC</b>: Use for loop till n/2 elements <br />
-      <pre><code>
+      ```
         for(i=2;i<=n/2;i++) {
           if(n%i == 0){
               flag = 1;
               break;
           }
         }
-        </code></pre>
+        ```
   3. [Fibonacci Series](fibonacci.c)
       <b>LOGIC</b>: Use for loop <br />
-      <pre><code>
+      ```
         for(i=1;i<=n;i++) {
           if(i<3) a3=1;
           else {
@@ -41,18 +41,18 @@ There are many books you can refer to get started with C Programming:
               a2=a3;
           }
         }
-      </code></pre>
+      ```
   4. [Sum of elements in array](sumOfElements.c)
       <b>LOGIC</b>: Use for loop <br />
-      <pre><code>
-        for(i=0;i<n;i++) {
+      
+        ```for(i=0;i<n;i++) {
           sum+=a[i];
-        } 
-      </code></pre>
+        } ```
+
   5. [Duplicate elements of an array](arrayDup.c)
       <b>LOGIC</b>: Use for loop <br />
-      <pre><code>
-        for(i=0;i<n;i++) {
+      
+        ```for(i=0;i<n;i++) {
           b[i]=a[i];
-        }
-      </code></pre>
+        }```
+     
