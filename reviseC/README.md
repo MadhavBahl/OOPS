@@ -10,8 +10,13 @@ There are many books you can refer to get started with C Programming:
   * [Programming in ANSI C](https://www.amazon.in/Programming-ANSI-C-Balagurusamy/dp/933921966X/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1482474187&sr=1-1&keywords=ansi+c&linkCode=sl1&tag=thecrazprog-21&linkId=30fc46dc98b370dd22cfda8bb2cd856b)
   * [Head First C](https://www.amazon.in/Head-First-C-David-Griffiths/dp/9350236923/ref=as_sl_pc_tf_til?tag=thecrazprog-21&linkCode=w00&linkId=RUUWS5S4GYEUTYL5&creativeASIN=9350236923)
 
-### Some basic programs in C -- for begginers
+## Some basic programs in C -- for begginers
 
-  1. [Factorial of a given number]()
-  2. [Prime Number]()
+  1. [Factorial of a given number](factorial.c)  
+     <b>LOGIC</b>: use recursive functions <br />
+     ```int factorial(int n) {
+           if(n>1) return n*factorial(n-1);
+           else return 1;
+        } ```
+  2. [Prime Number](prime.c)
   3. [Fibonacci Series]()
