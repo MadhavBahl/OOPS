@@ -98,3 +98,6 @@ There are many books you can refer to get started with C Programming:
   11. [WAP that accepts 4 real numbers from the keyboard and prints out the
               difference of the maximum and minimum values of these numbers using 4-decimal
               places.](ans2.c)
+
+  12. [Find sin(1/x) where x != 0 upto 4 digits of precision](sin.c)
+  13. [Check for palindrom number](palindrom.c)
