@@ -91,3 +91,10 @@ There are many books you can refer to get started with C Programming:
       strcat();
       strcmp();
     ```
+  10. [WAP which reads a single letter of alphabet. If it is a lowercase between
+              ’a’ and ’g’, the program prints out the alphabet in uppercase form. If it is anything
+              else, the program should print out uppercase ’X’.](ans1.c)
+  
+  11. [WAP that accepts 4 real numbers from the keyboard and prints out the
+              difference of the maximum and minimum values of these numbers using 4-decimal
+              places.](ans2.c)
