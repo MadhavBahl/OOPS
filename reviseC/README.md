@@ -111,3 +111,5 @@ There are many books you can refer to get started with C Programming:
         }
       ```
   15. [Prime numbers from 1 to 100](ansPrime.c)
+
+[Go Back](./..){: .btn}
