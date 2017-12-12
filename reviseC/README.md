@@ -101,3 +101,13 @@ There are many books you can refer to get started with C Programming:
 
   12. [Find sin(1/x) where x != 0 upto 4 digits of precision](sin.c)
   13. [Check for palindrom number](palindrom.c)
+  14. [Number of vowels in a given line](vowels.c)
+        <b>LOGIC</b>: Use if condition <br />
+      ```
+        for(i=0;i<len;i++) {
+            if(line[i] == 'a' || ......... || line[i] == 'U') {
+            count++;
+            }
+        }
+      ```
+  15. [Prime numbers from 1 to 100](ansPrime.c)

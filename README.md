@@ -1,4 +1,4 @@
-#OOPS
+# OOPS
 This is your guidebook to Object Oriented Programming in C++
 
 ## What is Object Oriented Programming?
@@ -13,4 +13,5 @@ Object-oriented programming (OOP) is a programming paradigm based on the concept
 
 ## INDEX 
 
-1. [Revise basics of C programming](/reviseC)
+1. [Revise basics of C programming](./reviseC)
+2. [Concept of pointers](./pointersInC)
