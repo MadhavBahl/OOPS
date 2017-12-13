@@ -111,6 +111,9 @@ There are many books you can refer to get started with C Programming:
         }
       ```
   15. [Prime numbers from 1 to 100](ansPrime.c)
-  16. [Sum of digits of a positive integer less than 1000](sumDig.c)
+  16. [Write a C program that accepts a positive integer n less than 50 from the terminal and
+prints out the sum 15 +25 +45 +75 +115 +_ _ _+m5, where m is less than or equal to
+n.](findSumSeries.c)
+  17. [Sum of digits of a positive integer less than 1000](sumDig.c)
 
 [Go Back](./..){: .btn}
