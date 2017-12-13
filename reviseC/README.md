@@ -10,6 +10,9 @@ There are many books you can refer to get started with C Programming:
   * [Programming in ANSI C](https://www.amazon.in/Programming-ANSI-C-Balagurusamy/dp/933921966X/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1482474187&sr=1-1&keywords=ansi+c&linkCode=sl1&tag=thecrazprog-21&linkId=30fc46dc98b370dd22cfda8bb2cd856b)
   * [Head First C](https://www.amazon.in/Head-First-C-David-Griffiths/dp/9350236923/ref=as_sl_pc_tf_til?tag=thecrazprog-21&linkCode=w00&linkId=RUUWS5S4GYEUTYL5&creativeASIN=9350236923)
 
+## NOTE*
+Even though all answers are given, <b>try slving the problems by yourself</b>, even before looking at the answer.
+
 ## Some basic programs in C -- for begginers
 
   1. [Factorial of a given number](factorial.c)  <br />
@@ -101,7 +104,7 @@ There are many books you can refer to get started with C Programming:
 
   12. [Find sin(1/x) where x != 0 upto 4 digits of precision](sin.c)
   13. [Check for palindrom number](palindrom.c)
-  14. [Number of vowels in a given line](vowels.c)
+  14. [Number of vowels in a given line](vowels.c)<br />
         <b>LOGIC</b>: Use if condition <br />
       ```
         for(i=0;i<len;i++) {
