@@ -18,10 +18,11 @@ Object-oriented programming (OOP) is a programming paradigm based on the concept
 
 <!-- hitwebcounter Code START -->
 <a href="http://www.hitwebcounter.com" target="_blank">
-<img src="http://hitwebcounter.com/counter/counter.php?page=6821344&style=0030&nbdigits=5&type=page&initCount=0" title="free hits" Alt="free hits"   border="0" >
+<img style="height: 25px; width: auto; cursor: default; text-align: center;" src="http://hitwebcounter.com/counter/counter.php?page=6821344&style=0030&nbdigits=5&type=page&initCount=0"    border="0" >
 </a>                                        <br/>
-                                        <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="Track My Website" 
-                                        target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif; 
-                                        font-size: 8px; color: #686A6F; text-decoration: none ;"><strong>Track My Website                                        </strong>
-                                        </a>   
+<a href="http://www.hitwebcounter.com" title="Track My Website" 
+    target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif; 
+    font-size: 8px; color: #686A6F; text-decoration: none ;">
+    
+</a>   
                             
