@@ -111,5 +111,6 @@ There are many books you can refer to get started with C Programming:
         }
       ```
   15. [Prime numbers from 1 to 100](ansPrime.c)
+  16. [Sum of digits of a positive integer less than 1000](sumDig.c)
 
 [Go Back](./..){: .btn}
