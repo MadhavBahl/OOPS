@@ -18,3 +18,19 @@ Using structures is the first step we take to store and solve real world problem
 ### Index
   1. [Example of using structure in C language](struct.c)
   2. [Making n instances of structure using arrays](nstruct.c)
+  3. [Pass structure as function arguement (call by value)](structinfunVal.c)
+  4. [Pass structure as function arguement (call by reference)](structinfun.c)
+
+### Assignment
+WAP A C program to read the employee details and calculate and display the employee details along with his/her gross pay, given that,
+```
+    gross = bp + 80%DA - 3%PF - 5%LIC
+```
+Your structure can contain the following elements
+  * emp_number
+  * emp_name
+  * emp_designation
+  * basic_pay
+  * pf (provident fund)
+  * da (dearness allowance)
+  * gross pay
