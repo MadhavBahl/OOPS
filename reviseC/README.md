@@ -114,9 +114,13 @@ Even though all answers are given, <b>try slving the problems by yourself</b>, e
         }
       ```
   15. [Prime numbers from 1 to 100](ansPrime.c)
-  16. [Write a C program that accepts a positive integer n less than 50 from the terminal and
+  16. [Simple Intrest](si.c)
+  17. [Write a C program that accepts a positive integer n less than 50 from the terminal and
 prints out the sum 15 +25 +45 +75 +115 +_ _ _+m5, where m is less than or equal to
 n.](findSumSeries.c)
-  17. [Sum of digits of a positive integer less than 1000](sumDig.c)
+  18. [Sum of digits of a positive integer less than 1000](sumDig.c)
+  19. [Write a C program that accepts integers from the keyboard until we enter a zero or a
+negative number. The program will output the number of positive values entered, the
+minimum value,the maximum value and the average of all numbers.](iptillo.c)
 
 [Go Back](./..){: .btn}
