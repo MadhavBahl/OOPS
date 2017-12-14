@@ -17,3 +17,4 @@ Using structures is the first step we take to store and solve real world problem
 
 ### Index
   1. [Example of using structure in C language](struct.c)
+  2. [Making n instances of structure using arrays](nstruct.c)
