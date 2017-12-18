@@ -122,5 +122,10 @@ n.](findSumSeries.c)
   19. [Write a C program that accepts integers from the keyboard until we enter a zero or a
 negative number. The program will output the number of positive values entered, the
 minimum value,the maximum value and the average of all numbers.](iptillo.c)
+  20. [Input the DOB in DDMMYYYY, find n,
+        n is equal to the sum of digits
+        until the sum is single digit](DOB.c)
+  21. [Sum of first and last digit of an integer](sum1l.c)
+  22. [Armstrong Number](armstrong.c)
 
 [Go Back](./..){: .btn}
