@@ -16,4 +16,5 @@ Object-oriented programming (OOP) is a programming paradigm based on the concept
 1. [Revise basics of C programming](./reviseC)
 2. [Concept of pointers](./pointersInC)
 3. [Concept of structures](./Structures)
-
+4. [Searching algorithms](./Search)
+5. [Sorting Algorithms](./Sort)
