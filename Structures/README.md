@@ -20,6 +20,11 @@ Using structures is the first step we take to store and solve real world problem
   2. [Making n instances of structure using arrays](nstruct.c)
   3. [Pass structure as function arguement (call by value)](structinfunVal.c)
   4. [Pass structure as function arguement (call by reference)](structinfun.c)
+  5. [Read the data for n students using structures
+        1. Display number of students along with regno
+           who scored centum in maths
+        2. Number of students along with regno who failed in
+           all three subjects](practiseStruct.c)
 
 ### Assignment
 WAP A C program to read the employee details and calculate and display the employee details along with his/her gross pay, given that,
