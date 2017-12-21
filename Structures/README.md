@@ -15,6 +15,44 @@ The general syntax for a struct declaration in C is: <br />
 ```
 Using structures is the first step we take to store and solve real world problems using code.
 
+## Nested Structures
+Nested structure in C is nothing but structure within structure. One structure can be declared inside other structure as we declare structure members inside a structure.<br />
+The structure variables can be a normal structure variable or a pointer variable to access the data. You can learn below concepts in this section.<br />
+
+### Nested structures declaration
+ * Way #1
+ ```
+    struct date
+    {
+        int date;
+        int month;
+        int year; 
+    };
+
+    struct Employee
+    {
+        char ename[20];
+        int ssn;
+        float salary;
+        struct date doj;
+    }emp1;
+ ```
+ * Way #2
+ ```
+    struct Employee
+    {
+        char ename[20];
+        int ssn;
+        float salary;
+        struct date
+        {
+            int date;
+            int month;
+            int year; 
+        }doj;
+    }emp1;
+ ```
+
 ### Index
   1. [Example of using structure in C language](struct.c)
   2. [Making n instances of structure using arrays](nstruct.c)
