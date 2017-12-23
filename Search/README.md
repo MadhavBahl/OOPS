@@ -11,6 +11,14 @@ STEP 3: If x matches with an element, store the value of index in position varia
 STEP 3: If the final value of position variable is -1 => the element does not exist
 ```
   2. [Binary Search]()
+<b>`Algorithm`</b>
+```
+STEP 1: Sort the given array in ascendinig order (if descendinig, then change accordingly the 3b and 3c steps)
+STEP 2: Compare x with the middle element, 
+STEP 3a: if x matches with middle element, we return the mid index.
+STEP 3b: Else If x is greater than the mid element, then x can only lie in right half subarray after the mid element. So we recur for right half.
+STEP 3c: Else (x is smaller) recur for the left half.
+```
   3. [Jump Search]()
   4. [Interpolation Search]()
   5. [Exponential Search]()

@@ -27,4 +27,5 @@ int main() {
     } else {
         printf("\nThe index of given element is: %d", pos);
     }
+    return 0;
 }
