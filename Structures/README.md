@@ -73,3 +73,5 @@ Your structure can contain the following elements
   * pf (provident fund)
   * da (dearness allowance)
   * gross pay
+
+[Go Back](./..){: .btn}

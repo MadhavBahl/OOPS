@@ -8,3 +8,4 @@ In computer science, a search algorithm is any algorithm which solves the Search
   4. [Interpolation Search]()
   5. [Exponential Search]()
   
+[Go Back](./..){: .btn}
