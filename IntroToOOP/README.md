@@ -49,5 +49,40 @@ Object Oriented Programming has a capability of programming/coding (more precise
 
 ### Class Diagrams
 
+### Syntax
+```cpp
+#include<iostream>
+using namespace std;
+
+class abc
+{
+    int a,b;
+  public:
+    void add(int a, int b) // Inline Function -- Member function defined inside the class
+    {
+        cout<<a+b;
+    }
+    void subtract(int a, int b);
+};
+
+void abc::subtract(int a, int b) // Member function defined outside the class
+{
+    cout<<a-b;
+}
+
+int main() {
+    abc x;
+    x.add(5,10);
+    x.subtract(20,10);
+    return 0;
+}
+
+```
+
+#### Why using namespace std?
+`cout` is one of the standard classes, which should be accessed be `std::cout`, to ease the process of writing code we write `using namespace std;`
+
 ### Sample Programs
-  1. [A basic Program involving class and object](IntroToOOPS.cpp)
+  1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
+  2. [Sample Program for Classes and Object 2](./class1.cpp)
+
