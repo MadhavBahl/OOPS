@@ -1,7 +1,7 @@
 # Binary Search
 
 ## Algoithm
-```
+```c
 STEP 1: Sort the given array in ascendinig order (if descendinig, then change accordingly the 3b and 3c steps)
 STEP 2: Compare x with the middle element, 
 STEP 3a: if x matches with middle element, we return the mid index.

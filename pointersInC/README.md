@@ -5,11 +5,11 @@
   * Unary or monadic operator & gives the `address of a variable`
   * operator * gives the `contents of an object pointed to by a pointer`
   * To declare a pointer to a variable :
-```s
+```c
     datatype * name_Of_Variable;  
 ```
 <b>EXAMPLE</b>
-```s
+```c
     int num = 10;
     int *nump = &num;
 
@@ -19,7 +19,7 @@
 ```
 
 ### Consider the following example
-```
+```c
     #include<stdio.h>
     int main() {
         int a=5;
@@ -37,7 +37,7 @@ Here,
   * *P stores the value of a
 
 ### Dereferencing a pointer variable
-```
+```c
 #include<stdio.h>
 int main() {
     float data = 100;

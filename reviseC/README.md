@@ -17,7 +17,7 @@ Even though all answers are given, <b>try slving the problems by yourself</b>, e
 
   1. [Factorial of a given number](factorial.c)  <br />
      <b>LOGIC</b>: use recursive functions <br />
-        ```
+        ```c
         int factorial(int n) {
            if(n>1) return n*factorial(n-1);
            else return 1;
@@ -25,7 +25,7 @@ Even though all answers are given, <b>try slving the problems by yourself</b>, e
         ```
   2. [Prime Number](prime.c)<br />
       <b>LOGIC</b>: Use for loop till n/2 elements <br />
-      ```
+      ```c
         for(i=2;i<=n/2;i++) {
           if(n%i == 0){
               flag = 1;
@@ -35,7 +35,7 @@ Even though all answers are given, <b>try slving the problems by yourself</b>, e
         ```
   3. [Fibonacci Series](fibonacci.c)<br />
       <b>LOGIC</b>: Use for loop <br />
-      ```
+      ```c
         for(i=1;i<=n;i++) {
           if(i<3) a3=1;
           else {
@@ -47,30 +47,30 @@ Even though all answers are given, <b>try slving the problems by yourself</b>, e
       ```
   4. [Sum of elements in array](sumOfElements.c)<br />
       <b>LOGIC</b>: Use for loop <br />
-        ```
+        ```c
         for(i=0;i<n;i++) {
           sum+=a[i];
         } 
         ```
   5. [Duplicate elements of an array](arrayDup.c)<br />
       <b>LOGIC</b>: Use for loop <br />
-        ```
+        ```c
         for(i=0;i<n;i++) {
           b[i]=a[i];
         }
         ```
   6. [Array Reversal](ArrayReversal.c)<br />
       <b>LOGIC</b>:Use temp variable<br />
-      ```
-      for(i=0,j=n-1;i<n/2;i++,j--) {
-        temp=a[i];
-        a[i]=a[j];
-        a[j]=temp;
-      }
+      ```c
+          for(i=0,j=n-1;i<n/2;i++,j--) {
+            temp=a[i];
+            a[i]=a[j];
+            a[j]=temp;
+          }
       ```
   7. [Multi dimensional array input](arrayip.c)<br />
       <b>LOGIC</b>: Use nested loops <br />
-      ```
+      ```c
         for(i=0;i<r;i++) {
             for(j=0;j<c;j++)
                 scanf("%d",&A[i][j]);
@@ -78,7 +78,7 @@ Even though all answers are given, <b>try slving the problems by yourself</b>, e
       ```
   8. [Sum of matrix](arraySum.c)<br />
       <b>LOGIC</b>: Add individual element <br />
-      ```
+      ```c
         for(i=0;i<r;i++) {
           for(j=0;j<c;j++){
               scanf("%d",&B[i][j]);
@@ -87,7 +87,7 @@ Even though all answers are given, <b>try slving the problems by yourself</b>, e
         }
       ```
   9. [String operations in C](arrayAsString.c)<br />
-    ```
+    ```c
       strlen();
       strrev();
       strcpy();
@@ -106,7 +106,7 @@ Even though all answers are given, <b>try slving the problems by yourself</b>, e
   13. [Check for palindrom number](palindrom.c)
   14. [Number of vowels in a given line](vowels.c)<br />
         <b>LOGIC</b>: Use if condition <br />
-      ```
+      ```c
         for(i=0;i<len;i++) {
             if(line[i] == 'a' || ......... || line[i] == 'U') {
             count++;

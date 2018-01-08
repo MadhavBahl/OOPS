@@ -6,7 +6,7 @@ An array is a collection of elements of same data type. Using an array to solve 
 Therefore,<b> using structures over array is a more logical choice as it provides more flexibility to store more diverse data in a single functional unit </b>
 ## Declaration
 The general syntax for a struct declaration in C is: <br />
-```
+```c
     struct tag_name {
         type member1;
         type member2;
@@ -21,7 +21,7 @@ The structure variables can be a normal structure variable or a pointer variable
 
 ### Nested structures declaration
  * Way #1
- ```
+ ```c
     struct date
     {
         int date;
@@ -38,7 +38,7 @@ The structure variables can be a normal structure variable or a pointer variable
     }emp1;
  ```
  * Way #2
- ```
+ ```c
     struct Employee
     {
         char ename[20];
@@ -62,7 +62,7 @@ The structure variables can be a normal structure variable or a pointer variable
 
 ### Assignment
 WAP A C program to read the employee details and calculate and display the employee details along with his/her gross pay, given that,
-```
+```c
     gross = bp + 80%DA - 3%PF - 5%LIC
 ```
 Your structure can contain the following elements
