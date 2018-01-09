@@ -128,5 +128,6 @@ Allocation of memory space at run time.
   1. [Pointers](pointer.c)
   2. [Poiners on array](PointToArray.c)
   3. [Call by reference](swapUsingPointer.c)
+  4. [Dynamic memory alllocation](malloc.c)
 
 [Go Back](./..){: .btn}
