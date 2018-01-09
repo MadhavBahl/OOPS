@@ -13,7 +13,12 @@ There are many books you can refer to get started with C Programming:
 ## NOTE*
 Even though all answers are given, <b>try slving the problems by yourself</b>, even before looking at the answer.
 
-## Some basic programs in C -- for begginers
+## Confident On Your Skiils? Test Them
+Try out some good problems. Do them yourself, if you get stuck somewhere, the answers are always there.
+
+  1. [Assignment on conditional statements in C](./ReviseConditional)
+
+## Begginer? Try out some basic programs in C
 
   1. [Factorial of a given number](factorial.c)  <br />
      <b>LOGIC</b>: use recursive functions <br />
