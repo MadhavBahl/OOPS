@@ -79,6 +79,24 @@ int main() {
 
 ```
 
+## Functions and Inline functions
+Objective of using functions in a program is to save some code memory space, increase modularity, good and neat software design.
+But,
+
+### Inline functions
+If a function is inline, the compiler places a copy of the code
+<br />
+<b>`Example`</b>
+```c
+    inline int maxim( int x, int y ) {
+        return (x>y)? x : y;
+    }
+```
+
+### Default arguements
+A default arguement is a value provided in function declaration, which is automatically assigned by the compiler if the caller does not pass in that value.
+
+
 #### Why using namespace std?
 `cout` is one of the standard classes, which should be accessed be `std::cout`, to ease the process of writing code we write `using namespace std;`
 

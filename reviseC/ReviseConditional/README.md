@@ -16,7 +16,6 @@ First line contains the BillAmount
 Second line contains the BuyingDay
 <br />
 Third line contains the PayingDay
-
 <b>Output Format</b> <br />
 Print the amount to be paid with only two decimal places
 <br /> <br />
@@ -28,10 +27,9 @@ is said to be valid if sum of square of the digits is divisible by 10.
 Given an identification number, develop an algorithm and write the C code
 to print ‘Valid’ or ‘Invalid’. For example, 505, 608 are valid and number 444 is invalid.
 <br />
-<b>`Input Format`</b><br />
+<b>Input Format</b><br />
 First line contains a three digit identification number<br />
-<br />
-<b>`Output format`</b>
+<b>Output format</b>
 Print either Valid or Invalid
-
-
+<br /><br />
+[See the Answer Here](ques2.c)
