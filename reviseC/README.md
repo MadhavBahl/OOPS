@@ -17,6 +17,7 @@ Even though all answers are given, <b>try slving the problems by yourself</b>, e
 Try out some good problems. Do them yourself, if you get stuck somewhere, the answers are always there.
 
   1. [Assignment on conditional statements in C](./ReviseConditional)
+  2. [Assignment on Looping statements in C](./ReviseLoops)
 
 ## Begginer? Try out some basic programs in C
 
