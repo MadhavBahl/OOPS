@@ -1,10 +1,10 @@
 /* 
-Algorithm: We will use a nested loop to prinit the pattern
-i will go fron 1 to n
-inside we will use 2 loops, one to print spaces, other for stars
-In any particular line:
-Number  of spaces = n-i
-Number  of stars = 2*i-1
+    Algorithm: We will use a nested loop to prinit the pattern
+    i will go fron 1 to n
+    inside we will use 2 loops, one to print spaces, other for stars
+    In any particular line:
+        Number  of spaces = n-i
+        Number  of stars = 2*i-1
 */
 
 #include<stdio.h>
