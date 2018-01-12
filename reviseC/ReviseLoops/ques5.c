@@ -1,3 +1,7 @@
+/* ========================================= */
+/* ===== Solution for Sample Problem 5 ===== */
+/* ========================================= */
+
 /* 
 Algorithm: We use a nested loop to print such patterns.
     i goes from 1 to n 

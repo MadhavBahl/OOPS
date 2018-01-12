@@ -1,10 +1,14 @@
+/* ========================================= */
+/* ===== Solution for Sample Problem 1 ===== */
+/* ========================================= */
+
 /* 
     Algorithm: We use nested use to print this pattern
     first loop iterates i over 1 to n
     The inside loops prints spaces and (01)s separately:
-    Number of spaces = i-1
-    Number of digits = (n+1)-i, 
-    where, ODD(j) prints: 0 and EVEN(j) prints: 1 
+        Number of spaces = i-1
+        Number of digits = (n+1)-i, 
+            where, ODD(j) prints: 0 and EVEN(j) prints: 1 
 */
 
 #include<stdio.h>

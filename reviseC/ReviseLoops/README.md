@@ -88,7 +88,7 @@ Print the pattern given in the question
 
 ### Question 5
 Given the value of ‘n’, develop an algorithm and write a C program to print the following pattern. When the value of ‘n’ is 5, the pattern will look as follows:
-
+```
 **$
 
 **$**$
@@ -98,7 +98,7 @@ Given the value of ‘n’, develop an algorithm and write a C program to print 
 **$**$**$**$
 
 **$**$**$**$**$
-
+```
 
 <b>Input Format</b><br />
 First line contains the value of ‘n’
