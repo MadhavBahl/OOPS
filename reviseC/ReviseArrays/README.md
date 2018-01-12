@@ -57,4 +57,17 @@ Print the output nXn matrix in matrix format
 <br /><br />
 [Click here to see the answer](ques4.c)
 
+### Sample Problem 5
+Given ‘n’ words, write an algorithm and the C program to print all the ‘Leader words’. A word is said to be a leader word if it is lexicographically greater than all the words that are right to it. Last word is always a ‘Leader word’. For example, given five strings rat, cat, apple, ball and bag the output should be rat, cat, ball and bag.
+
+<b>Input Format</b>
+First line contains the number of words, n
+
+Next ‘n’ lines contain the words<br />
+
+<b>Output Format</b>
+Print the leader words one in each line
+<br /><br />
+[Click here to see the answer](ques5.c)
+
 [Go Back](./..){: .btn}
