@@ -55,4 +55,13 @@ Print the name of the best sales person
 <br /><br />
 [Click here to see the answer](ques2.c)
 
+### Sample Problem 2 -- Recursive reverse string
+Write a recursive ‘C’ program to print the reverse of the string.
+<b>Input Format</b>
+First line contains the string, S<br />
+<b>Output Format</b>
+Print reverse of string, S
+<br /><br />
+[Click here to see the answer](ques2.c)
+
 [Go Back](./..){: .btn}
