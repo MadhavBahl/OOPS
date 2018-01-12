@@ -19,6 +19,7 @@ Try out some good problems. Do them yourself, if you get stuck somewhere, the an
   1. [Assignment on conditional statements in C](./ReviseConditional)
   2. [Assignment on Looping statements in C](./ReviseLoops)
   3. [Assignment on Arrays and strings in C](./ReviseArrays)
+  4. [Assignment on Structures and functions in C](./ReviseStruct)
 
 ## Begginer? Try out some basic programs in C
 
