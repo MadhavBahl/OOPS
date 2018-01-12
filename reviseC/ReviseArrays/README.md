@@ -27,10 +27,10 @@ Print the number of words in the first line and length of the longest word in th
 ### Sample Problem 3
 Given a NXN matrix of numbers, write an algorithm and a C code to check if the outer elements are same. For example if the 4X4 matrix as shown below is given then print ‘Same’.
 
-https://user-images.githubusercontent.com/26179770/34876698-b8a771ca-f7c8-11e7-8316-ecbded23d310.png
+![image](https://user-images.githubusercontent.com/26179770/34876698-b8a771ca-f7c8-11e7-8316-ecbded23d310.png)
 
 If the matrix given is as follows then print ‘Not same’.
-https://user-images.githubusercontent.com/26179770/34876700-bb6ece12-f7c8-11e7-9daa-374c0f40f7aa.png
+![image](https://user-images.githubusercontent.com/26179770/34876700-bb6ece12-f7c8-11e7-9daa-374c0f40f7aa.png)
 
 <b>Input Format</b>
 First line contains the dimension of the matrix, n
@@ -43,10 +43,10 @@ Print either Same or Not same
 
 ### Sample Problem 4
 Given a NXN character matrix, write an algorithm and a C program to toggle the case of the characters along the diagonals of the matrix, for example given a 5X 5 matrix as follows:
-https://user-images.githubusercontent.com/26179770/34877046-56b6a90c-f7ca-11e7-97dc-b37c2fa6bf72.png
+![image](https://user-images.githubusercontent.com/26179770/34877046-56b6a90c-f7ca-11e7-97dc-b37c2fa6bf72.png)
 
 Then the output matrix should be:
-https://user-images.githubusercontent.com/26179770/34877049-596ca2f0-f7ca-11e7-8f87-3d1edccbdb03.png
+![image](https://user-images.githubusercontent.com/26179770/34877049-596ca2f0-f7ca-11e7-8f87-3d1edccbdb03.png)
 
 <b>Input Format</b>
 First line contains the dimension of the matrix, n
