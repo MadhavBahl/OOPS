@@ -108,5 +108,26 @@ Print the pattern given in the question
 <br /><br />
 [See the Answer Here](ques5.c)
 
+### Question 5
+Given the value of ‘n’, develop an algorithm and write a C program to print the following pattern. When the value of ‘n’ is 5, the pattern will look as follows:
+```
+  *
+
+ * *
+
+*   *
+
+ * *
+
+  *
+```
+
+<b>Input Format</b><br />
+First line contains the value of ‘n’
+<br />
+<b>Input Format</b><br />
+Print the pattern given in the question
+<br /><br />
+[See the Answer Here](ques5.c)
 
 [Go Back](./..){: .btn}
