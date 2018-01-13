@@ -20,6 +20,7 @@ Try out some good problems. Do them yourself, if you get stuck somewhere, the an
   2. [Assignment on Looping statements in C](./ReviseLoops)
   3. [Assignment on Arrays and strings in C](./ReviseArrays)
   4. [Assignment on Structures and functions in C](./ReviseStruct)
+  5. [Take A Test 1](./TAT1)
 
 ## Begginer? Try out some basic programs in C
 
