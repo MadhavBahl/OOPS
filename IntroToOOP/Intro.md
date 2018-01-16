@@ -72,25 +72,6 @@ int main() {
 
 ```
 
-## Functions and Inline functions
-Objective of using functions in a program is to save some code memory space, increase modularity, good and neat software design.
-But,
-
-### Inline functions
-If a function is inline, the compiler places a copy of the code
-<br />
-<b>`Example`</b>
-```c
-    inline int maxim( int x, int y ) {
-        return (x>y)? x : y;
-    }
-```
-
-### Default arguements
-A default arguement is a value provided in function declaration, which is automatically assigned by the compiler if the caller does not pass in that value.
-
-
-
 ## 5 Characteristics of OOP
   * Data Encapsulation
   * Data Abstraction
@@ -177,5 +158,3 @@ add::add(void) {
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
   2. [Sample Program for Classes and Object 2](./class1.cpp)
-
-[Go Back](./..){: .btn}
