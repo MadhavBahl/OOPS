@@ -72,25 +72,6 @@ int main() {
 
 ```
 
-## Functions and Inline functions
-Objective of using functions in a program is to save some code memory space, increase modularity, good and neat software design.
-But,
-
-### Inline functions
-If a function is inline, the compiler places a copy of the code
-<br />
-<b>`Example`</b>
-```c
-    inline int maxim( int x, int y ) {
-        return (x>y)? x : y;
-    }
-```
-
-### Default arguements
-A default arguement is a value provided in function declaration, which is automatically assigned by the compiler if the caller does not pass in that value.
-
-
-
 ## 5 Characteristics of OOP
   * Data Encapsulation
   * Data Abstraction
@@ -154,7 +135,7 @@ Will invoke afunc(int)
 ## Constructors
 A constructor is a special member function whose task is to initialize the objects of its class. It's name is same as the name of the class.
 The constructor is invoked whenever an object of it's associated class  is created.<br />
-It is called cinstructor because it constructs the values of data members of the class.
+It is called constructor because it constructs the values of data members of the class.
 <br />**Example**
 ```cpp
 class add {
@@ -170,12 +151,39 @@ add::add(void) {
 ```
 
 ### Parameterized Constructors
+When a constructor is parametrized, we must pass the initial values as arguements to the constructor function.
+
+### Copy Constructor
+A copy constructor is used
+```cpp
+sample::sample (sample &i) {
+    a=i.a;
+    b=i.b;
+}
+```
+
+#### Multiple constructors in a class
+* constructor overtloading is possible in c++.
+* Default arguement constructors are allowed `A::A(int x=0)`
+
+[See an example here](copy.cpp)
+
+## Destructor
+
+A destructor is used to destroy the objects that have been created by a constructor
+Destructor never takes any arguements nor returns any value
+It will be invoked implicitly by the compiler upon exit from the program (or any block/function).
+
+## Function calling methods
+1. Call by Value
+2. Call by Address
+3. Call ny Reerance
 
 #### Why using namespace std?
 `cout` is one of the standard classes, which should be accessed be `std::cout`, to ease the process of writing code we write `using namespace std;`
 
+
+
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
   2. [Sample Program for Classes and Object 2](./class1.cpp)
-
-[Go Back](./..){: .btn}

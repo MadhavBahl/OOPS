@@ -1,9 +1,10 @@
-/* ========================================= */
-/* ===== Solution for Sample Problem 3 ===== */
-/* ========================================= */
+/* ================================================================= */
+/* ===== Check if the outer elements of an NxN matrix are same ===== */
+/* ================================================================= */
 
 #include<stdio.h>
 
+// Function to exit the program if not equal
 void notEqual(void) {
     printf("Not same");
     exit(0);
@@ -20,6 +21,7 @@ int main () {
     // Check whether the outer elements are same
     elem = mat[0][0];
     for(i=0;i<n;i++) {
+        // Having not equal function is helping keeping my code dry
         if (mat[0][i] != elem) {
             notEqual();
         } else if (mat[i][0] != elem) {
