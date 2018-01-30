@@ -135,7 +135,7 @@ Will invoke afunc(int)
 ## Constructors
 A constructor is a special member function whose task is to initialize the objects of its class. It's name is same as the name of the class.
 The constructor is invoked whenever an object of it's associated class  is created.<br />
-It is called cinstructor because it constructs the values of data members of the class.
+It is called constructor because it constructs the values of data members of the class.
 <br />**Example**
 ```cpp
 class add {
@@ -151,9 +151,53 @@ add::add(void) {
 ```
 
 ### Parameterized Constructors
+When a constructor is parametrized, we must pass the initial values as arguements to the constructor function.
+
+### Copy Constructor
+A copy constructor is used
+```cpp
+sample::sample (sample &i) {
+    a=i.a;
+    b=i.b;
+}
+```
+
+#### Multiple constructors in a class
+* constructor overtloading is possible in c++.
+* Default arguement constructors are allowed `A::A(int x=0)`
+
+[See an example here](copy.cpp)
+
+## Destructor
+
+A destructor is used to destroy the objects that have been created by a constructor
+Destructor never takes any arguements nor returns any value
+It will be invoked implicitly by the compiler upon exit from the program (or any block/function).
+
+## Function calling methods
+1. Call by Value
+2. Call by Address
+3. Call ny Reerance
+
+## Dynamic memory Allocation in C++
+C++ has two new operators apart form malloc() and calloc(), called `new` and `delete`
+
+### New and delete in C++
+Similar to malloc and free in C
+But there is an option to initialize memory
+Can be used allocate memory for single or array of elements
+If memory is available, the new operator allocates memory space for the requested object/array, and returns a pointer to (address of) the memory allocated.
+If sufficient memory is not available, the new operator returns NULL.
+Dynamically allocated object/array exists until the delete operator destroys it
+
+[1. Dynamic Memory Allocation](dynAlloc.cpp)
+[2. Dynamic Memory Allocation for Arrays](dynamicArray.cpp)
+[3. Dynamic Memory Allocation for Objects](dynamicObject.cpp)
 
 #### Why using namespace std?
 `cout` is one of the standard classes, which should be accessed be `std::cout`, to ease the process of writing code we write `using namespace std;`
+
+
 
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
