@@ -179,6 +179,53 @@ It will be invoked implicitly by the compiler upon exit from the program (or any
 2. Call by Address
 3. Call ny Reerance
 
+## Dynamic memory Allocation in C++
+C++ has two new operators apart form malloc() and calloc(), called `new` and `delete`
+
+### New and delete in C++
+Similar to malloc and free in C
+But there is an option to initialize memory
+Can be used allocate memory for single or array of elements
+If memory is available, the new operator allocates memory space for the requested object/array, and returns a pointer to (address of) the memory allocated.
+If sufficient memory is not available, the new operator returns NULL.
+Dynamically allocated object/array exists until the delete operator destroys it
+
+[1. Dynamic Memory Allocation](dynAlloc.cpp)
+[2. Dynamic Memory Allocation for Arrays](dynamicArray.cpp)
+[3. Dynamic Memory Allocation for Objects](dynamicObject.cpp)
+
+## UML Diagram
+UML, Unified Modeling Language, is a standard notation for the modeling of real-world objects as a first step in developing an object oriented program. It describes one consistent language for specifying, visualizing, constructing and documenting the artifacts of software systems.
+
+### Graphs 
+Most UML diagrams are graphs containing nodes connected by paths. The information is mostly in the typology, not in the size or placement of the symbols. There are three kinds of visual relationships that are important:
+
+1. Connection (usually lines)
+
+2. Containment (2D shapes with boundaries)
+3. Visual attachment (one object being near another)
+
+UML notation is intended to be drawn on a 2D surface.
+
+There are basically four kinds of graphical constructs used in the UML notation:
+
+* Icons – an icon is a graphical figure of a fixed size and shape. It does not expand to hold contents. Icons may appear within area symbols, as terminators on paths or as standalone symbols that may or may not be connected to paths
+
+* 2D symbols – Two dimensional symbols have variable length and width and they can expand to hold other things, such as lists, strings or other symbols. Many of them are divided into compartments of similar or different kinds. Dragging or deleting a 2D-symbol affects its contents and any paths connected to it.
+
+* Paths – Sequences of line segments whose endpoints are attached. Conceptually, a path is a single topological entity, although its segments may be manipulated graphically. A segment may not exist apart from his path. Paths are always attached to other graphic symbols at both ends (no dangling lines). Paths may have terminators, which are icons that appear in some sequence on the end of the path and that qualify the meaning of the path symbol.
+
+* Strings – Present various kinds of information in an "unparsed" form. UML assumes that each usage of a string in the notation has a syntax by which it can be parsed into underlying model information. For example, syntaxes are given for attributes, operations and transitions. Strings may exist as singular elements of symbols or compartments of symbols, as elements in a list as labels attached to symbols or paths, or as stand-alone elements in a diagram.
+
+![image](https://user-images.githubusercontent.com/26179770/35623206-ad90c60a-06b0-11e8-82d8-d3153fef1403.png)
+
+### Relationships
+Each object has various attributes. An attribute is a name/value pair. For example, my age is 22. The attribute name is "age", the value is "22". Objects also have behavior. I can stand, walk, sleep etc.
+
+### Sample UML for railway reservation system
+![image](https://user-images.githubusercontent.com/26179770/35623448-b2af1a50-06b1-11e8-8f15-ec46ab78e2b2.png)
+
+
 #### Why using namespace std?
 `cout` is one of the standard classes, which should be accessed be `std::cout`, to ease the process of writing code we write `using namespace std;`
 
