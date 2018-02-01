@@ -229,6 +229,9 @@ Each object has various attributes. An attribute is a name/value pair. For examp
 #### Why using namespace std?
 `cout` is one of the standard classes, which should be accessed be `std::cout`, to ease the process of writing code we write `using namespace std;`
 
+## Ready To Test Your Skills
+
+If you think you are ready to test your skills, [Click Here](./classTest)
 
 
 ### Sample Programs
