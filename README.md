@@ -1,4 +1,4 @@
-# OOPS
+# OOPS Guidebook -- UNDER CONSTRUCTION
 This is your guidebook to Object Oriented Programming in C++
 
 ## What is Object Oriented Programming?
