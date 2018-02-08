@@ -260,6 +260,8 @@ catch (...) {    // catch(...) catches any throw
 }
 ```
 
+[**See a sample program**](tryCatch.cpp)
+
 ## Friend Function
 
 A friend function is a function that can access the non-public members of a class, even though the function itself is not a member of the class.

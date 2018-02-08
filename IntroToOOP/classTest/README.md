@@ -50,3 +50,5 @@ In the first line, print ‘Same value’, if the value of the cards are same or
 In the second line, print color of the suite of the first card. Print ‘red’ if the suite is diamonds or hearts and print ‘black’ if the suite is clubs or spades
 
 [**See Answer**](sample1.cpp)
+
+## Problem 2
