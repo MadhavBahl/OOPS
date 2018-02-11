@@ -51,4 +51,82 @@ In the second line, print color of the suite of the first card. Print ‘red’ 
 
 [**See Answer**](sample1.cpp)
 
-## Problem 2
+## Problem 2: Let's raise exceptions
+
+A leather manufacturing company maintains a DB with the details of their employees. The details maintained are name, employeeid, age. Age of the employees in the company can only be 18 to 50. Write a C++ function to read the details of employees from user, the function should print the details if it is valid.
+
+When age < 18, raise an integer exception and print ‘Age cannot be less than 18’
+
+When age > 50, raise a character exception and print ‘Age cannot be greater than 50’
+
+#### Example 1
+
+If the details entered are Ramu, E123 and 25 then print the details ramu, 123 and 25, one in each line.
+
+#### Example 2
+
+If the details entered are Ramu, E123 and 15 then raise an exception and print ‘Age cannot be less than 18’.
+
+#### Example 3
+
+If the details entered are Ramu, E123 and 55 then raise an exception and print ‘Age cannot be greater than 50’.
+
+**Input Format**
+
+First line contains name of the employee
+
+Second line contains employee ID of the employee
+
+Third line contains age of the employee
+
+**Input Format**
+
+Print either the details of the employee entered. One detail in each line or print ‘Age cannot be less than 18’ or ‘Age cannot be greater than 50’ when invalid age is entered
+
+[**See Answer**](sample2.cpp)
+
+## Problem 3: Heronian triangle
+
+In geometry, a Heronian triangle is a triangle that has side lengths and area that are all integers. Heronian triangles are named after Hero of Alexandria. Design a class to represent a triangle and provide functions to calculate perimeter of triangle, area of triangle and a function to check if the given triangle is Heronian triangle.
+
+#### Boundary conditions
+
+Sides a,b,c are integers and the values are given such that they can be sides of a triangle
+
+Note:
+
+Given sides of the triangle a,b and c, area of the triangle, S is calculated as:
+
+![image](https://user-images.githubusercontent.com/26179770/36069840-91c6a5ac-0f16-11e8-9100-d5d03cfcc6e6.png)
+
+Print only two decimal places when the area is not an integer and print only integral part when decimal part of area is zero.
+
+If you have a float variable, f and you want to print only two decimal places then write cout with manipulators as shown below:
+
+ 
+
+Include iomanip namespace in the top of the file:
+
+#include <iomanip>
+
+And include the line below
+
+cout<<fixed<<setprecision(2)<<f;
+
+Setprecision automatically ceils the last digit printed when the next digit of the floating point value is greater than or equal to 5.
+
+**Input Format**
+
+First line contains an integer corresponding to side 1 of triangle, a
+
+Second line contains an integer corresponding to side 2 of triangle, b
+
+Third line contains an integer corresponding to side 3 of triangle, c
+
+**Output format**
+
+First line should contain the perimeter of the triangle
+
+Second line should contain the area of the triangle
+
+Third line contains Yes or No. Print Yes when the given triangle is Heronian triangle and Print No otherwise
