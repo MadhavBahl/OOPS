@@ -130,3 +130,5 @@ First line should contain the perimeter of the triangle
 Second line should contain the area of the triangle
 
 Third line contains Yes or No. Print Yes when the given triangle is Heronian triangle and Print No otherwise
+
+[**See Answer**](sample3.cpp)
