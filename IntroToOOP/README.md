@@ -260,8 +260,6 @@ catch (...) {    // catch(...) catches any throw
 }
 ```
 
-[**See a sample program**](tryCatch.cpp)
-
 ## Friend Function
 
 A friend function is a function that can access the non-public members of a class, even though the function itself is not a member of the class.
@@ -354,6 +352,30 @@ class employer {
 
 
 ```
+
+## Operator overloading
+
+C++ allows most of the operators within the language to be overloaded so that they work with classes.  This
+- allows the language to be extended to cover new situations
+- enhances program readability
+- enhances program functionality
+- is an essential components of C++ templates and the standard templates library
+
+### Restrictions
+
+The operators .  ::  ?:   sizeof  **may not** be overloaded.
+
+All other operators can be overloaded
+
+An operator is overloaded by writing a non-static member function definition or non-member
+function definition as you normally would, except that the function name
+starts with the keyword operator followed by the symbol for the operator being overloaded.
+
+**For example**, the function name operator+ would be used to overload the addition operator (+)
+for use with objects of a particular class.
+
+[**See a sample program 1**](opOver.cpp)
+[**See a sample program 2**](opOverUnary.cpp)
 
 #### Why using namespace std?
 `cout` is one of the standard classes, which should be accessed be `std::cout`, to ease the process of writing code we write `using namespace std;`
