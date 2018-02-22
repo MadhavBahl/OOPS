@@ -79,6 +79,9 @@ int main() {
 
 ```
 
+#### Why using namespace std?
+`cout` is one of the standard classes, which should be accessed be `std::cout`, to ease the process of writing code we write `using namespace std;`
+
 ## 5 Characteristics of OOP
 
   * Data Encapsulation
@@ -227,7 +230,7 @@ Preventing program/Software to crash in case of wrong inputs by throwing appropr
 
 ### TRY
 
-```
+```cpp
 try {
     .
     .
@@ -374,13 +377,10 @@ starts with the keyword operator followed by the symbol for the operator being o
 **For example**, the function name operator+ would be used to overload the addition operator (+)
 for use with objects of a particular class.
 
-[**See a sample program 1**](opOver.cpp)
-[**See a sample program 2**](opOverUnary.cpp)
-
-#### Why using namespace std?
-`cout` is one of the standard classes, which should be accessed be `std::cout`, to ease the process of writing code we write `using namespace std;`
-
-
+[**Overloading binary addition operator**](opOver.cpp) <br />
+[**Overloading unary subtraction operator**](opOverUnary.cpp) <br />
+[**Overloading unary increment operator**](incrementOver.cpp) <br />
+[**Overloading subscript operator**](incrementOver.cpp) <br />
 
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
