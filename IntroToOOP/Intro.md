@@ -387,6 +387,15 @@ for use with objects of a particular class.
 Inheritance means deriving qualities and characteristics from parents or ancestors. 
 
 Inheritance in Object Oriented Programming can be described as a process of creating new classes from existing classes which will have the properties similar to that of parent classes.
+Or simply, Inheritance is the process by which objects of one class acquire the properties of objects of another class in the hierarchy.
+
+Subclasses provide specialized behavior from the basis of common elements provided by the super class. Through the use of inheritance, programmers can reuse the code in the super class many times.
+
+Reusing existing code saves time and money and increases a program’s reliability.
+
+![image](https://user-images.githubusercontent.com/26179770/36838639-b9c269e4-1d65-11e8-9c98-506477719a4d.png)
+
+New classes can be built from the existing classes. It means that we can add additional features to an existing class without modifying it. The new class is referred as derived class or subclass and the original class is known as base classes or super class.
 
 ### Syntax
 

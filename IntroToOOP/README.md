@@ -382,6 +382,64 @@ for use with objects of a particular class.
 [**Overloading unary increment operator**](incrementOver.cpp) <br />
 [**Overloading subscript operator**](incrementOver.cpp) <br />
 
+## Inheritance
+
+Inheritance means deriving qualities and characteristics from parents or ancestors. 
+
+Inheritance in Object Oriented Programming can be described as a process of creating new classes from existing classes which will have the properties similar to that of parent classes.
+Or simply, Inheritance is the process by which objects of one class acquire the properties of objects of another class in the hierarchy.
+
+Subclasses provide specialized behavior from the basis of common elements provided by the super class. Through the use of inheritance, programmers can reuse the code in the super class many times.
+
+Reusing existing code saves time and money and increases a program’s reliability.
+
+![image](https://user-images.githubusercontent.com/26179770/36838639-b9c269e4-1d65-11e8-9c98-506477719a4d.png)
+
+New classes can be built from the existing classes. It means that we can add additional features to an existing class without modifying it. The new class is referred as derived class or subclass and the original class is known as base classes or super class.
+
+### Syntax
+
+```cpp
+class derivedClasas: accessSpecifier baseClass
+```
+
+## Access Specifiers
+
+Access specifiers are (as the name suggests) specifiers which tell what should be the privacy of the content, and how much content wee can access.
+
+Access specifier can be public, protected and private. The default access specifier for data members is private. Access specifiers affect accessibility of data members of base class from the derived class. In addition, it determines the accessibility of data members of base class outside the derived class.
+
+## Inheritance Access Specifiers
+
+### Public
+
+This inheritance mode is used mostly. In this the protected member of Base class becomes protected members of Derived class and public becomes public.
+
+### Protected
+
+In protected mode, the public and protected members of Base class becomes protected members of Derived class.
+
+### Private
+
+In private mode the public and protected members of Base class become private members of Derived class.
+
+## Types Of Inheritance
+
+- [Single Inheritance](#single-inheritance)
+- [Multiple Inheritance](#single-inheritance)
+- [Multi Level Inheritance](#single-inheritance)
+- [Hierarchical Inheritance](#single-inheritance)
+- [Hybrid Inheritance](#single-inheritance)
+
+### Single inheritance
+
+One child class inherits one parent class
+
+![image](https://user-images.githubusercontent.com/26179770/36835325-d9d905d0-1d5b-11e8-99f6-f53e93ed5a38.png)
+
+
+[**See a sample program here**](./inheriance/single.cpp)
+
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
   2. [Sample Program for Classes and Object 2](./class1.cpp)
