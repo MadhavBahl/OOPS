@@ -312,11 +312,9 @@ int main( ) {
 
 ### Difference between Friend function and Member function
 
-#---#---#
 |Member Function|Friend Functoon|
-#---#---#
+|--|---|
 |It is invoked through an object|Not invoked through an object since it is a non-member of a class <br /> If the friend function of class X is a member function of class  Y, then it must be invoked through an object of class Y |
-#---#---#
 |Can access the non-public members of the class directly|Can access the non-public members of the class only through an object (since this pointer is not visible)|
 
 ## Friend Class
@@ -439,6 +437,15 @@ One child class inherits one parent class
 
 
 [**See a sample program here**](./inheriance/single.cpp)
+
+### Multiple Inheritance
+
+When one child cass inherits properties of  more than one parent classes.
+Simply, one subclass and many super classes form a multiple inheritance.
+
+![image](https://user-images.githubusercontent.com/26179770/36891750-9fad27ec-1e28-11e8-9dd5-87b935688bd7.png)
+
+[**See a sample program here**](./inheritance/multiple.cpp)
 
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
