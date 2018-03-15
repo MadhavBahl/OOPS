@@ -466,6 +466,15 @@ In this case the inheritance pattern forms a hierarchy, i.e., there are multiple
 
 [**See a sample program here**](./inheritance/hierarchical.cpp)
 
+### Hybrid Inheritance
+
+Hybrid Inheritance is implemented by combining more than one type of inheritance. For example: Combining Hierarchical inheritance and Multiple Inheritance.
+
+![image](https://user-images.githubusercontent.com/26179770/37460441-3e203598-2871-11e8-9b7b-e3f1150aaf07.png)
+
+[**See a sample program here**](./inheritance/hybrid.cpp)
+
+
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
   2. [Sample Program for Classes and Object 2](./class1.cpp)
