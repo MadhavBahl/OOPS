@@ -447,6 +447,158 @@ Simply, one subclass and many super classes form a multiple inheritance.
 
 [**See a sample program here**](./inheritance/multiple.cpp)
 
+### Multilevel Inheritance
+
+As the name suggests, in this type of inheritance, there are multiple levels of inheritance.  This is analogous to grand parents, then parents then children.
+
+![image](https://user-images.githubusercontent.com/26179770/37459322-b018b41c-286d-11e8-9382-dc31f5690ccd.png)
+
+Example:
+![image](https://user-images.githubusercontent.com/26179770/37459129-2b6145f4-286d-11e8-83ee-bfcafe56f689.png)
+
+[**See a sample program here**](./inheritance/multilevel.cpp)
+
+### Hierarchical Inheritance
+
+In this case the inheritance pattern forms a hierarchy, i.e., there are multiple derived classes of same base class.
+
+![image](https://user-images.githubusercontent.com/26179770/37459413-f5d3db94-286d-11e8-9e82-c2675b36c8ac.png)
+
+[**See a sample program here**](./inheritance/hierarchical.cpp)
+
+### Hybrid Inheritance
+
+Hybrid Inheritance is implemented by combining more than one type of inheritance. For example: Combining Hierarchical inheritance and Multiple Inheritance.
+
+![image](https://user-images.githubusercontent.com/26179770/37460441-3e203598-2871-11e8-9b7b-e3f1150aaf07.png)
+
+[**See a sample program here**](./inheritance/hybrid.cpp)
+
+## Diamond Problem
+
+This is the problem arised in some cases of hybrid inheritance. In this problem a Derived class will have multiple paths to a Base class. This will result in duplicate inherited members of the Base class.
+
+![image](https://user-images.githubusercontent.com/26179770/37461230-a6283a62-2873-11e8-8194-c30136e21f1d.png)
+
+## Virtual Base Class
+
+Virtual base class is used in situation where a derived have multiple copies of base class to avoid dreaded diamonds problem. <br>
+reference: http://www.tutorialdost.com/Cpp-Programming-Tutorial/51-Cpp-Virtual-Base-Class.aspx
+
+![image](https://user-images.githubusercontent.com/26179770/37461316-f3efedb2-2873-11e8-8a33-576936ccc2d2.png)
+
+
+### Example without using virtual class
+
+```cpp
+#include<iostream.h>
+#include<conio.h>
+
+class ClassA
+{
+    public:
+    int a;
+};
+
+class ClassB : public ClassA
+{
+    public:
+    int b;
+};
+class ClassC : public ClassA
+{
+    public:
+    int c;
+};
+
+class ClassD : public ClassB, public ClassC
+{
+    public:
+    int d;
+};
+
+void main()
+{
+
+    ClassD obj;
+
+    obj.a = 10;        //Statement 1, Error occur
+    obj.a = 100;       //Statement 2, Error occur
+
+    obj.b = 20;
+    obj.c = 30;
+    obj.d = 40;
+
+    cout<< "\n A : "<< obj.a;
+    cout<< "\n B : "<< obj.b;
+    cout<< "\n C : "<< obj.c;
+    cout<< "\n D : "<< obj.d;
+
+}
+```
+
+**This will result in error**
+Therefore, to avoid such situations, we use virtual class
+
+### Example  with virtual base class
+
+```cpp
+#include<iostream.h>
+#include<conio.h>
+
+class ClassA
+{
+    public:
+    int a;
+};
+
+class ClassB : virtual public ClassA
+{
+    public:
+    int b;
+};
+class ClassC : virtual public ClassA
+{
+    public:
+    int c;
+};
+
+class ClassD : public ClassB, public ClassC
+{
+    public:
+    int d;
+};
+
+void main()
+{
+
+    ClassD obj;
+
+    obj.a = 10;        //Statement 1
+    obj.a = 100;       //Statement 2
+
+    obj.b = 20;
+    obj.c = 30;
+    obj.d = 40;
+
+    cout<< "\n A : "<< obj.a;
+    cout<< "\n B : "<< obj.b;
+    cout<< "\n C : "<< obj.c;
+    cout<< "\n D : "<< obj.d;
+
+}
+
+Output :
+
+        A : 100
+        B : 20
+        C : 30
+        D : 40
+
+```
+
+Here, ClassD have only one copy of ClassA and statement 4 will overwrite the value of a, given in statement 3.
+
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
   2. [Sample Program for Classes and Object 2](./class1.cpp)
