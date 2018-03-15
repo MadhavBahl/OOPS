@@ -312,11 +312,9 @@ int main( ) {
 
 ### Difference between Friend function and Member function
 
-#---#---#
 |Member Function|Friend Functoon|
-#---#---#
+|--|---|
 |It is invoked through an object|Not invoked through an object since it is a non-member of a class <br /> If the friend function of class X is a member function of class  Y, then it must be invoked through an object of class Y |
-#---#---#
 |Can access the non-public members of the class directly|Can access the non-public members of the class only through an object (since this pointer is not visible)|
 
 ## Friend Class
@@ -439,6 +437,34 @@ One child class inherits one parent class
 
 
 [**See a sample program here**](./inheriance/single.cpp)
+
+### Multiple Inheritance
+
+When one child cass inherits properties of  more than one parent classes.
+Simply, one subclass and many super classes form a multiple inheritance.
+
+![image](https://user-images.githubusercontent.com/26179770/36891750-9fad27ec-1e28-11e8-9dd5-87b935688bd7.png)
+
+[**See a sample program here**](./inheritance/multiple.cpp)
+
+### Multilevel Inheritance
+
+As the name suggests, in this type of inheritance, there are multiple levels of inheritance.  This is analogous to grand parents, then parents then children.
+
+![image](https://user-images.githubusercontent.com/26179770/37459322-b018b41c-286d-11e8-9382-dc31f5690ccd.png)
+
+Example:
+![image](https://user-images.githubusercontent.com/26179770/37459129-2b6145f4-286d-11e8-83ee-bfcafe56f689.png)
+
+[**See a sample program here**](./inheritance/multilevel.cpp)
+
+### Hierarchical Inheritance
+
+In this case the inheritance pattern forms a hierarchy, i.e., there are multiple derived classes of same base class.
+
+![image](https://user-images.githubusercontent.com/26179770/37459413-f5d3db94-286d-11e8-9e82-c2675b36c8ac.png)
+
+[**See a sample program here**](./inheritance/hierarchical.cpp)
 
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
