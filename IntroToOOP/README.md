@@ -632,6 +632,12 @@ Characteristics of virtual functions:
 
 [See a sample program here](./virtual.cpp)
 
+## Pure Virtual Functions (Abstract Classes)
+
+Sometimes implementation of all function cannot be provided in a base class because we don’t know the implementation. Such a class is called abstract class.
+
+[See a sample program here](./absract.cpp)
+
 ## Templates
 
 Template is a kind of macro that supports the generic programming which allows to develop the reusable components.
