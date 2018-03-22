@@ -132,3 +132,11 @@ Second line should contain the area of the triangle
 Third line contains Yes or No. Print Yes when the given triangle is Heronian triangle and Print No otherwise
 
 [**See Answer**](sample3.cpp)
+
+## Problem 4: Same local network
+
+![image](https://user-images.githubusercontent.com/26179770/37647194-acc2c9f0-2c51-11e8-8d0f-230c9f39b283.png)
+
+![image](https://user-images.githubusercontent.com/26179770/37647207-b7e068f6-2c51-11e8-809d-36eead6846aa.png)
+
+[**See Answer**](sample4.c)

@@ -474,6 +474,53 @@ Hybrid Inheritance is implemented by combining more than one type of inheritance
 
 [**See a sample program here**](./inheritance/hybrid.cpp)
 
+## Templates
+
+Template is a kind of macro that supports the generic programming which allows to develop the reusable components.
+It is one of the main features of object oriented language such as C++.
+Actually, it allows the declaration of data items without specifying their exact data type.
+
+## 2 Types pf templates
+
+1. Function Templates
+2. Class Templates
+
+### Function Templates
+
+Function templates are generic functions, which are operating on different data items. <br/>
+They describe a function format that when instantiated with particulars generates a function definition, basically it acts like a template schema which can be used
+for parameters with any datatype, instead of some fixed data type
+
+* Avoids redifinition of function
+
+* Makes code more reusable (write once, use multiple times)
+
+The C++ language allows the compiler to generate multiple versions of a function by allowing parameterized data types and hence it supports the parameterized polymorphism.
+
+The data items (types) are not declared while defining the function.
+
+Once when the function call is made using appropriate data type, then the template function is transformed to operate on that specific data types.
+
+#### Syntax
+
+```cpp
+template<class type>
+returntype functionname(arguments)
+{
+    .......
+    statements;
+    .......
+}
+```
+
+[See a sample program here](./template.cpp)
+
+### Class Template
+
+Generic classes with template data variables and template member functions
+
+[See a sample program here](./classTemplate.cpp)
+
 
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
