@@ -685,6 +685,22 @@ Generic classes with template data variables and template member functions
 
 [See a sample program here](./classTemplate.cpp)
 
+## Standard Template Libraries
+
+The Standard Template Library (STL) is a set of C++ template classes to provide common programming data structures and functions such as lists, stacks, arrays, etc. It is a library of container classes, algorithms and iterators. It is a generalized library and so, its components are parameterized. A working knowledge of template classes is a prerequisite  for working with STL.
+
+## 4 components of STL
+
+* Algorithms
+
+* Containers
+
+* Functions
+
+* Iterators
+
+### 
+
 ### Sample Programs
   1. [Sample Program for Classes and Object 1](./IntroToOOPS.cpp)
   2. [Sample Program for Classes and Object 2](./class1.cpp)

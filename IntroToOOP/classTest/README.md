@@ -140,3 +140,9 @@ Third line contains Yes or No. Print Yes when the given triangle is Heronian tri
 ![image](https://user-images.githubusercontent.com/26179770/37647207-b7e068f6-2c51-11e8-809d-36eead6846aa.png)
 
 [**See Answer**](sample4.c)
+
+## Problem 5: Cyclic Right Shift Of Elements
+
+![image](https://user-images.githubusercontent.com/26179770/37957200-fcb5ed60-31ca-11e8-9bf9-3eaea4c6deb9.png)
+
+[**See Answer**](sample5.c)
