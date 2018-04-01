@@ -146,3 +146,37 @@ Third line contains Yes or No. Print Yes when the given triangle is Heronian tri
 ![image](https://user-images.githubusercontent.com/26179770/37957200-fcb5ed60-31ca-11e8-9bf9-3eaea4c6deb9.png)
 
 [**See Answer**](sample5.c)
+
+## Problem 6: Boarding Pass
+
+Generate boarding pass for the passengers of a ship which starts from Chennai to Andaman. The boarding pass must be generated automatically with a pass number that begins with "CA" and followed by a number that is automatically incremented from value 'x', details like passenger name, age, mobile number, address, date of journey and fare. There is a seasonal discount based on the age of the passengers. Write a non member function called discount which calculates the discount in the fare for the passenger with the following discounts. For the age group `between 12 and 58, both inclusive’ there is 20% discount in the fare, for the age group ‘above 58’, there is 40% discount and for the children (age under 12), 50% discount. Write a C++ program to generate pass for 'n' users. 
+
+### Input Format
+
+- Passenger name Value of 'x' 
+
+- Age 
+
+- Address 
+
+- date_of_Journey 
+
+- mobile number Original  
+
+- Fare 
+
+### Output Format
+
+- passenger name 
+
+- Boarding pass number 
+
+- age 
+
+- date_of_Journey 
+
+- mobile number 
+
+- Total fare after discount based on age 
+
+[**See Answer**](sample6.c)
