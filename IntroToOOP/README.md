@@ -677,7 +677,8 @@ returntype functionname(arguments)
 }
 ```
 
-[See a sample program here](./template.cpp)
+[See sample program 1 here](./template.cpp)
+[See sample program 2 here](./tempAdd.cpp)
 
 ### Class Template
 
