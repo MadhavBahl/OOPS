@@ -179,4 +179,12 @@ Generate boarding pass for the passengers of a ship which starts from Chennai to
 
 - Total fare after discount based on age 
 
-[**See Answer**](sample6.c)
+[**See Answer**](sample6.cpp)
+
+## Problem 6: Customer Discount
+
+![image](https://user-images.githubusercontent.com/26179770/38207509-bd88f910-36cb-11e8-8179-2cb3f1d171bf.png)
+
+![image](https://user-images.githubusercontent.com/26179770/38207534-d9c1fa0a-36cb-11e8-8bcb-ca749d513268.png)
+
+[**See Answer**](sample7.cpp)
