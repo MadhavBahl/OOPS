@@ -7,7 +7,7 @@ It is Divided into Two subarray:-
 2. Which to be Sort(unsorted).
 
 B.Algorithm:
-Step 1 − Set MIN to location 0
+Step 1 − Set MIN to location 0  
 Step 2 − Search the minimum element in the nrt
 Step 3 − Swap with value at location MIN
 Step 4 − Increment MIN to point to next element
