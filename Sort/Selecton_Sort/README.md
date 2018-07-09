@@ -1,6 +1,6 @@
-Selection Sort
+##Selection Sort
 
-A.Introduction:  
+###A.Introduction:  
 The Selection Sort algorithm Sorts an array buy repeatedly finding the minimum element(for ascending Order) from the unsorted part and putting it at beginning.  
 It is Divided into Two subarray:-  
 1. The arrauy Which is already Sorted.  
