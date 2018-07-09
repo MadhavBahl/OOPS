@@ -15,6 +15,7 @@ Step 3 − Swap with value at location MIN
 Step 4 − Increment MIN to point to next element  
 Step 5 − Repeat until array is sorted  
 `code()`
+```C
 void selection(arr[],n)  
   for i=0 to n-1  //one by one unsorted array  
     //Finding Minimum Element  
@@ -27,7 +28,7 @@ void selection(arr[],n)
 	//Swaping Current element with minimum element  
 	swap(arr[min],arr[i])  
   end for  
-
+```
 C.Explanation:-  
 ---------------
 Selection Sort can be explain on 2 steps:-  
