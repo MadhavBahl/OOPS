@@ -34,11 +34,11 @@ C.Explanation:-
 ---------------
 Selection Sort can be explain on 2 steps:-  
 1.Find minimum element in unsorted part:-   
-		* 1.Fix min(minimum) as current element.  
-		8 2.Then compare min with with unsorted elements.  
-				* a.if any element at that position is greater than current then do nothing.  
-				* b.if any element at that position is smaller than current then fix it as min.   
+		A.Fix min(minimum) as current element.  
+		B.Then compare min with with unsorted elements.  
+				- if any element at that position is greater than current then do nothing.  
+				- if any element at that position is smaller than current then fix it as min.   
 2.Swap current element arrp[i] with arr[min]:-  
-		* 1.It will swap if min is found or Not.  
+		A.It will swap if min is found or Not.  
 
  
