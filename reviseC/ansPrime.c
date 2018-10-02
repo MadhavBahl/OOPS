@@ -5,19 +5,24 @@
 /* ============================================================================== */
 
 #include<stdio.h>
-int main() {
+int main() 
+{
     int prime[100];
     int i,j,count=0,flag=1;
-    for(i=2;i<=100;i++) {
+    for(i=2;i<=100;i++)
+    {
         flag=1;
-        for(j=2;j<=i/2;j++) {
-            if(i%j == 0) {
+        for(j=2;j<=i/2;j++)
+        {
+            if(i%j == 0)
+            {
                 flag=0;
-                j=i/2;
+                
             }
         }
 
-        if(flag == 1) {
+        if(flag == 1) 
+        {
             prime[count] = i;
             count++;
         }
@@ -30,3 +35,4 @@ int main() {
     }
 
 }
+return 0;
