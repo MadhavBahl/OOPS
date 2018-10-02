@@ -29,7 +29,7 @@ partition(arr[], low, high){
 	// pivot element
  	pivot = arr[low]
  	// index where bigger elements will be placed
-    i = high + 1
+        i = high + 1
 	for(j = high; j >= low + 1; j--){
  		if (arr[j] >= pivot){
 		   i--;
