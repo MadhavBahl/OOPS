@@ -11,8 +11,8 @@ The key process in quickSort is partition(). Target of partitions is, given an a
 
 #### QuickSort : 
 ```
- // low - starting index , high - ending index
- quickSort(arr[], low, high){
+// low - starting index , high - ending index
+quickSort(arr[], low, high){
     if (low < high){	
 	    // pi is the partition index
 	    pi = partition(arr, high, low)
@@ -20,25 +20,25 @@ The key process in quickSort is partition(). Target of partitions is, given an a
 		quickSort(arr, low, pi - 1)
  		quickSort(arr, pi + 1, high)
  	}
- }
+}
 ```
 
 #### Partition Algorithm (Choosing first element as pivot) : 
 ```
- partition(arr[], low, high){
-	 // pivot element
- 	 pivot = arr[low]	
- 	 // index where bigger elements will be placed
-     i = high + 1
-	 for(j = high; j >= low + 1; j--){
+partition(arr[], low, high){
+	// pivot element
+ 	pivot = arr[low]
+ 	// index where bigger elements will be placed
+    i = high + 1
+	for(j = high; j >= low + 1; j--){
  		if (arr[j] >= pivot){
 		   i--;
 		   swap arr[i] and arr[j]
 		}
-	 }
-     swap arr[i - 1] and arr[low]
-     return i - 1
- }
+	}
+    swap arr[i - 1] and arr[low]
+    return i - 1
+}
 ```
 ## Explanation
 
