@@ -2,11 +2,9 @@
 
 Merge Sort is a Divide and Conquer algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, p, q, r) is key process that assumes that arr[p..q] and arr[q+1..r] are sorted and merges the two sorted sub-arrays into one.
 
-The key process in quickSort is partition(). Target of partitions is, given an array and an element x of array as pivot, put x at its correct position in sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
-
 ## Algorithm
 
-#### QuickSort : 
+#### MergeSort : 
 ```
 MergeSort(arr[], p,  r)
 If r > p
