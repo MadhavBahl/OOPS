@@ -12,5 +12,6 @@ The most-used orders are numerical order and lexicographical order. <br />
   5. [Merge Sort]()
   6. [Heap Sort]()
   7. [Radix Sort]()
-
+  8. [Topological Sort]()
+     It is Used in Graphs.
 [Go Back](./..){: .btn}
