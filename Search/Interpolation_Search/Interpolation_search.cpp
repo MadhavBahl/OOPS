@@ -1,7 +1,7 @@
 // C++ program to implement interpolation search 
-#include<bits/stdc++.h> 
-using namespace std; 
-  
+#include <iostream>
+using namespace std;
+ 
 // If x is present in arr[0..n-1], then returns 
 // index of it, else returns -1. 
 int interpolationSearch(int arr[], int n, int x) 
