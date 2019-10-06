@@ -9,17 +9,16 @@
   * To revise a data structure, we also need to revise all functions that access the data
   * This approach does not model real world problems
 
-## Characteristics of Proceedural Programming
+## Characteristics of Procedural Programming
 
   * Large problems divided into smaller sub problems called functions
 
-## Drawbacks of proceedural programming
+## Drawbacks of procedural programming
 
-There are some issues in Proceedural programming paradigm
+There are some issues in Procedural programming paradigm
   * This approach does not model real world problems
   * Data can not be classified into private and public
   * Most of the functions share global data
-  *
 
 
 # Object Oriented Programming
@@ -32,12 +31,12 @@ Object Oriented Programming has a capability of programming/coding (more precise
 ## Major advantages of OOP
 
   * OOP treat data as a critical element in the program development and does not allow it to flow freely around the system
-  * Emphasis is on data rather than proceedure
+  * Emphasis is on data rather than procedure
   * Data is hidden and can not be accessed by unauthorized external functions
   * Programs are divided into objects
   * It is based on grouping data (called data members) and related functions (called member functions) into a bigger model called a ***class***
   * Class is a blueprint of object. It is designed in such a way that it characterizes the objects
-  * It ties data more closely to the functions that operates on it, protects it from accidental modifications fro outside functions
+  * It ties data more closely to the functions that operates on it, protects it from accidental modifications from outside functions
   * OOP allows decomposition of a problem into a number of entities called objects and then build data freely around these objects
   * Data of an object can be accessed only by the functions associated with that object
   * Functions of one object can access the functions of another objects
@@ -97,7 +96,7 @@ static polymorphism or
 dynamic polymorphism
 <br />
 C++ implements static polymorphism through
-overloaded functions
+overloaded functions (including constructors)
 overloaded operators
 <br /><br />
 Three ways of achieving overloading in C++
@@ -108,7 +107,7 @@ Three ways of achieving overloading in C++
 ## Overloading
 
 A name having two or more distinct meanings<br />
-**Function Overloading** -- A function having two or more distinct meaning
+**Function Overloading** -- A function having two or more distinct meanings
 **Operator Overloading** -- When two or more distinct meanings are defined for a single operator
 <br /> For example -- '-' can be unary as well as binary, '*' is used for multiplication as well as pointers
 
@@ -116,10 +115,10 @@ A name having two or more distinct meanings<br />
 
 #### Signature
 
-Combination of function's name and its parameter types (in order).
+Combination of a function's name and its parameter types (in order).
 Or, a function's arguement list is known as the function's signature. Overloaded functions are distinguished by their signatures
 
-Signature is only on the parameter's, **NOT** on the return type
+Signature is only on the parameters (that too only the types and not the names of the variables), **NOT** on the return type
 
 ## Function Overloading -- Finding the best match
 
@@ -154,21 +153,21 @@ Will invoke afunc(int)
 
 ## Constructors
 
-A constructor is a special member function whose task is to initialize the objects of its class. It's name is same as the name of the class.
+A constructor is a special member function whose task is to initialize the objects of its class. Its name is same as the name of the class.
 The constructor is invoked whenever an object of it's associated class  is created.<br />
-It is called constructor because it constructs the values of data members of the class.
+It is called constructor because it 'constructs' the values of the data members of the class.
 
 <br />**Example**
 ```cpp
 class add {
-    int m,n;
+    int m, n;
   public:
     add (void);
 };
 
 add::add(void) {
-    m=0;
-    n=0;
+    m = 0;
+    n = 0;
 }
 ```
 
@@ -181,15 +180,15 @@ When a constructor is parametrized, we must pass the initial values as arguement
 A copy constructor is used
 ```cpp
 sample::sample (sample &i) {
-    a=i.a;
-    b=i.b;
+    a = i.a;
+    b = i.b;
 }
 ```
 
 #### Multiple constructors in a class
 
 * constructor overtloading is possible in c++.
-* Default arguement constructors are allowed `A::A(int x=0)`
+* Default argument constructors are allowed `A::A(int x = 0)`
 
 [See an example here](copy.cpp)
 
@@ -203,7 +202,7 @@ It will be invoked implicitly by the compiler upon exit from the program (or any
 
 1. Call by Value
 2. Call by Address
-3. Call ny Reerance
+3. Call by Reference
 
 ## Dynamic memory Allocation in C++
 
@@ -213,7 +212,7 @@ C++ has two new operators apart form malloc() and calloc(), called `new` and `de
 
 Similar to malloc and free in C
 But there is an option to initialize memory
-Can be used allocate memory for single or array of elements
+Can be used allocate memory for single or an array of elements
 If memory is available, the new operator allocates memory space for the requested object/array, and returns a pointer to (address of) the memory allocated.
 If sufficient memory is not available, the new operator returns NULL.
 Dynamically allocated object/array exists until the delete operator destroys it
@@ -411,11 +410,11 @@ Access specifier can be public, protected and private. The default access specif
 
 ### Public
 
-This inheritance mode is used mostly. In this the protected member of Base class becomes protected members of Derived class and public becomes public.
+This inheritance mode is used mostly. In this the protected member of the Base class becomes protected members of the Derived class and public becomes public.
 
 ### Protected
 
-In protected mode, the public and protected members of Base class becomes protected members of Derived class.
+In protected mode, the public and protected members of the Base class becomes protected members of the Derived class.
 
 ### Private
 
@@ -440,7 +439,7 @@ One child class inherits one parent class
 
 ### Multiple Inheritance
 
-When one child cass inherits properties of  more than one parent classes.
+When one child cass inherits properties of more than one parent classes.
 Simply, one subclass and many super classes form a multiple inheritance.
 
 ![image](https://user-images.githubusercontent.com/26179770/36891750-9fad27ec-1e28-11e8-9dd5-87b935688bd7.png)
@@ -449,7 +448,7 @@ Simply, one subclass and many super classes form a multiple inheritance.
 
 ### Multilevel Inheritance
 
-As the name suggests, in this type of inheritance, there are multiple levels of inheritance.  This is analogous to grand parents, then parents then children.
+As the name suggests, in this type of inheritance, there are multiple levels of inheritance. This is analogous to grand parents, then parents then children.
 
 ![image](https://user-images.githubusercontent.com/26179770/37459322-b018b41c-286d-11e8-9382-dc31f5690ccd.png)
 
@@ -655,7 +654,7 @@ Function templates are generic functions, which are operating on different data 
 They describe a function format that when instantiated with particulars generates a function definition, basically it acts like a template schema which can be used
 for parameters with any datatype, instead of some fixed data type
 
-* Avoids redifinition of function
+* Avoids redefinition of function
 
 * Makes code more reusable (write once, use multiple times)
 
