@@ -3,7 +3,7 @@
   * Variable that contains address in memory of another variable
   * We can have a pointer to any variable type
   * Unary or monadic operator & gives the `address of a variable`
-  * operator * gives the `contents of an object pointed to by a pointer`
+  * Dereferencing operator (*) gives the `contents of an object pointed to by a pointer`
   * To declare a pointer to a variable :
 ```c
     datatype * name_Of_Variable;  
@@ -34,7 +34,9 @@
 
 Here, 
   * P stores the memory address of a.
-  * *P stores the value of a
+  * When P is called it uses the memory stored in it i.e., Address of a, and points towards it for the purpose of code.
+  * *P stores the value of a.
+  * Basically, *P refers as P dereferenced by the * (Dereferencing operator) i.e., pointing on a and uses the value/data stored at the address of a.
 
 ### Dereferencing a pointer variable
 ```c
@@ -112,7 +114,7 @@ Allocation of memory space at run time.
   * For example, an int array of 10 elements can be allocated as: `int * array = (int *) calloc (10, sizeof (int));`
 
 #### Difference between malloc() and calloc()
-  * Calloc allocates multiple blocks of data whereas malloc allocates as a single block 
+  * Calloc allocates multiple blocks (which might exist at different memory addresses in the memory) of data whereas malloc allocates as a single block (whihc is a single continuous set of memory assigned to the pointer)
   * Calloc initializes all bytes in the allocation block to zero
 
 ### realloc()
