@@ -1,0 +1,33 @@
+/*
+Polymorphism is a feature of OOPs that allows the object to behave differently in different conditions. In C++ we have two types of polymorphism:
+1) Compile time Polymorphism – This is also known as static (or early) binding.
+2) Runtime Polymorphism – This is also known as dynamic (or late) binding.
+*/
+#include <iostream>
+using namespace std;
+class A {
+public:
+  void disp(){
+     cout<<"Super Class Function"<<endl;
+  }
+};
+class B: public A{
+public:
+  void disp(){
+     cout<<"Sub Class Function";
+  }
+};
+int main() {
+  //Parent class object
+  A obj;
+  obj.disp();
+  //Child class object
+  B obj2;
+  obj2.disp();
+  return 0;
+}
+
+/*
+Super Class Function
+Sub Class Function
+*/
