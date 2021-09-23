@@ -3,6 +3,7 @@
 /* ================================================================= */
 
 #include<stdio.h>
+#include <stdlib.h>
 
 // Function to exit the program if not equal
 void notEqual(void) {

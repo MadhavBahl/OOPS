@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.13)
+
+add_subdirectory(Binary_Search)
+add_subdirectory(Exponential_Search)
+add_subdirectory(Interpolation_Search)
+add_subdirectory(Jump_Search)
+add_subdirectory(Linear_Search)
