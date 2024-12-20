@@ -11,7 +11,7 @@ There are many books you can refer to get started with C Programming:
   * [Head First C](https://www.amazon.in/Head-First-C-David-Griffiths/dp/9350236923/ref=as_sl_pc_tf_til?tag=thecrazprog-21&linkCode=w00&linkId=RUUWS5S4GYEUTYL5&creativeASIN=9350236923)
 
 ## NOTE*
-Even though all answers are given, <b>try slving the problems by yourself</b>, even before looking at the answer.
+Even though all answers are given, <b>try solving the problems by yourself</b>, even before looking at the answer.
 
 ## Confident On Your Skiils? Test Them
 Try out some good problems. Do them yourself, if you get stuck somewhere, the answers are always there.
@@ -41,7 +41,7 @@ Try out some good problems. Do them yourself, if you get stuck somewhere, the an
               break;
           }
         }
-        ```
+      ```
   3. [Fibonacci Series](fibonacci.c)<br />
       <b>LOGIC</b>: Use for loop <br />
       ```c
@@ -96,6 +96,7 @@ Try out some good problems. Do them yourself, if you get stuck somewhere, the an
         }
       ```
   9. [String operations in C](arrayAsString.c)<br />
+
     ```c
       strlen();
       strrev();
